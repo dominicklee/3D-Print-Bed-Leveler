@@ -28,3 +28,4 @@ It is highly recommended that you have the following supplies:
 
 ## Wiring Schematic ##
 ![Schematic Drawing](https://raw.githubusercontent.com/dominicklee/3D-Print-Bed-Leveler/main/Bed%20Leveling%20Tool%20Schematic.jpg)
+![After changes for M5 Stick C Plus and new images](https://github.com/JackyBurget/3D-Print-Bed-Leveler/blob/main/M5Stick%20C%20and%20C%20Plus.JPG)
