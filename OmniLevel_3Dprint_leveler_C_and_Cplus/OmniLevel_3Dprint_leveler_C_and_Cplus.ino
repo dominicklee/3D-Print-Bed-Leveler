@@ -23,7 +23,7 @@ Do not forget to load in the Arduino editor to set the card type to use M5StickC
 
 // For M5StickC Comment for M5StickCplus or uncomment line if you will use this for M5StickC
 // Begin M5StickC bloc
-/*
+
 #include <M5StickC.h>
 #include <EEPROM.h>
 #include "OneButton.h"
@@ -47,9 +47,9 @@ int x_calibration_end = 29;
 int x_progressbar = 142;
 int x_progressbar_width = 15;
 int adjust_color = 32;
-*/
-// End M5StickC bloc
 
+// End M5StickC bloc
+/*
 // for M5StickCplus comment for M5StickC or uncomment Bloc line if you will use this for M5StickCplus
 // Begin M5StickCplus bloc
 #include <M5StickCPlus.h>
@@ -76,7 +76,7 @@ int x_progressbar = 199;
 int x_progressbar_width = 40;
 int adjust_color = 46;
 // end M5StickCPlus bloc
-
+*/
 // Icons converted at: 
 // http://rinkydinkelectronics.com/_t_doimageconverter565.php
 
