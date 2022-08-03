@@ -36,6 +36,8 @@ OneButton btnB(G39, true);
 void setup() {
   M5.begin();
   EEPROM.begin(EEPROM_SIZE);  //Initialize EEPROM
+  EEPROM.write(0, setpoint);  // save in EEPROM
+  EEPROM.commit();
   Serial.begin(115200);       //Initialize Serial
   pinMode(ledPin, OUTPUT);    //Set up LED
   digitalWrite (ledPin, HIGH); // turn off the LED
